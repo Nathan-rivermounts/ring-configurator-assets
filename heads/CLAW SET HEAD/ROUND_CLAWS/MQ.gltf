@@ -1,0 +1,147 @@
+{
+    "asset": {
+        "copyright": "2026 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - cee69a03c1bf5412df6b9191aa5cf8b999495b6b",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 349542,
+            "type": "VEC3",
+            "max": [
+                0.031483735889196399,
+                0.06077701970934868,
+                0.14451435208320619
+            ],
+            "min": [
+                -0.031483735889196399,
+                -0.06077701970934868,
+                0.08592889457941055
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 349542,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 349542,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 349542,
+            "type": "SCALAR",
+            "max": [
+                349541.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4194504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4194504,
+            "byteLength": 4194504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 8389008,
+            "byteLength": 2796336,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 11185344,
+            "byteLength": 1398168,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 12583512,
+            "uri": "MQ_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092898
+            },
+            "name": "STL_DEFAULT_MATERIAL22",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "body_n3d6",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "translation": [
+                0.0,
+                -0.08592889457941055,
+                9.53674295089968e-9
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "name": "body_n3d6"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
